@@ -14,11 +14,10 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-
 @RestController
 @RequestMapping("/math")
 public class MathPdfController {
-    //生成九九乘法表随机题
+    //生成九九乘法表随机题；以前再加小数和分数的随机题
     @RequestMapping("/multiplySheet")
     public String multiplySheet(HttpServletResponse response) throws Exception {
         Random r = new Random();
