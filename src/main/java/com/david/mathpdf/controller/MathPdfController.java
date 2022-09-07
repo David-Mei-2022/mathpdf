@@ -817,11 +817,11 @@ public class MathPdfController {
         return tempList;
     }
 
-    //生成一位数加或乘一位数混合随机题
+    //生成一位数加和一位数乘混合随机题
     @RequestMapping("/singleMixSingle")
     public String singleMixSingle(HttpServletResponse response) throws Exception {
         Random r = new Random();
-        String filename = "一位数加或乘一位数混合随机题-" + r.nextInt(99 - 10 + 1) + 10;
+        String filename = "一位数加和一位数乘混合随机题-" + r.nextInt(99 - 10 + 1) + 10;
         // 设置下载格式为pdf
         response.setContentType("application/x-download");
         response.addHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(filename, "UTF-8") + ".pdf");
@@ -845,20 +845,31 @@ public class MathPdfController {
 
         ArrayList<String> listPlus = new ArrayList<>();
         ArrayList<String> listMulti = new ArrayList<>();
-        //生成两位数除一位数随机题
+        //一位数加和一位数乘混合随机题
         listPlus = createSinglePlusSingle();
         listMulti = createMultiplySheet();
+        ArrayList<String> finalList = new ArrayList<>();
+        for (int i = 0; i < listMulti.size(); i++) {
+            finalList.add(listPlus.get(i));
+            finalList.add(listMulti.get(i));
+        }
+
+        Collections.shuffle(finalList);
+
         String firstContent = "";
         String secondContent = "";
         String lastContent = "";
 
         int j = 0;
-        for (int i = 0; i < listMulti.size() -1; i++) {
+        for (int i = 0; i < 97; i++) {
             j++;
-            firstContent = listPlus.get(i) + "□";
-            secondContent = listMulti.get(i) + "□";
 
-            if (j % 2 != 0 && j < listPlus.size()) {
+            if (j < finalList.size()) {
+                firstContent = finalList.get(i) + "□";
+                secondContent = finalList.get(j) + "□";
+            }
+
+            if (j % 2 != 0 && j < 97) {
                 lastContent = firstContent + "   " + secondContent;
                 content = PdfUtil.createParagraph(lastContent, bigFont);
                 // 4. 添加段落内容
