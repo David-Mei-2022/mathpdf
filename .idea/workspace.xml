@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402303bd-15ff-4f83-9ab0-012cefd18412" name="Changes" comment="" />
+    <list default="true" id="402303bd-15ff-4f83-9ab0-012cefd18412" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/david/mathpdf/controller/GradeTwoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.2.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.david.mathpdf.MathpdfApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.david.mathpdf.MathpdfApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.david.mathpdf.MathpdfApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.david.mathpdf.MathpdfApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +39,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\softinstall\apache-maven-3.6.1\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../softinstall/apache-maven-3.6.1" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\softinstall\apache-maven-3.6.1\conf\settings.xml" />
@@ -26,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2EKq173iLxZFZWvHquzv2I7S61i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +93,10 @@
       <workItem from="1662355149329" duration="2000" />
       <workItem from="1662355794591" duration="659000" />
       <workItem from="1662513260814" duration="1472000" />
-      <workItem from="1662533537604" duration="715000" />
+      <workItem from="1662533537604" duration="1240000" />
+      <workItem from="1662608603969" duration="8000" />
+      <workItem from="1664418664809" duration="26000" />
+      <workItem from="1664418697946" duration="2925000" />
     </task>
     <servers />
   </component>

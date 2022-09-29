@@ -1,3 +1,4 @@
 com\david\mathpdf\util\PdfUtil.class
 com\david\mathpdf\controller\MathPdfController.class
+com\david\mathpdf\controller\GradeTwoController.class
 com\david\mathpdf\MathpdfApplication.class
