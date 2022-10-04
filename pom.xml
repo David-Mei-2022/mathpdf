@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.david</groupId>
     <artifactId>mathpdf</artifactId>
-    <version>1.3</version>
+    <version>1.6</version>
     <name>mathpdf</name>
     <description>mathpdf</description>
     <properties>

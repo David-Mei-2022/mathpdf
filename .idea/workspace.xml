@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402303bd-15ff-4f83-9ab0-012cefd18412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/david/mathpdf/controller/GradeTwoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.2.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/david/mathpdf/controller/MathPdfController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/david/mathpdf/controller/MathPdfController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/david/mathpdf/controller/MathPdfController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/david/mathpdf/controller/MathPdfController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mathpdf-1.3.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.david.mathpdf.MathpdfApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.david.mathpdf.MathpdfApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.david.mathpdf.MathpdfApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.david.mathpdf.MathpdfApplicationTests.txt" afterDir="false" />
     </list>
@@ -97,6 +94,8 @@
       <workItem from="1662608603969" duration="8000" />
       <workItem from="1664418664809" duration="26000" />
       <workItem from="1664418697946" duration="2925000" />
+      <workItem from="1664439426201" duration="2000" />
+      <workItem from="1664853931567" duration="1869000" />
     </task>
     <servers />
   </component>

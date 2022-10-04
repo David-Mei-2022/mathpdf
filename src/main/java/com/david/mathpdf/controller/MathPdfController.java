@@ -656,8 +656,9 @@ public class MathPdfController {
         content.setAlignment(Element.ALIGN_LEFT);
 
         ArrayList<String> list = new ArrayList<>();
-        //生成两位数除一位数随机题
+        //生成一位数除一位数随机题
         list = createSingleDivideSingle();
+        Collections.shuffle(list);
         String firstContent = "";
         String secondContent = "";
         String lastContent = "";
@@ -667,8 +668,8 @@ public class MathPdfController {
             j++;
 
             if (j < list.size()) {
-                firstContent = list.get(i) + "□";
-                secondContent = list.get(j) + "□";
+                firstContent = list.get(i);
+                secondContent = list.get(j);
             }
 
             if (j % 2 != 0 && j < list.size()) {
@@ -686,6 +687,173 @@ public class MathPdfController {
         return "success";
     }
 
+    //一位数除一位数
+    private static ArrayList<String> createSingleDivideSingle() {
+        String expression = "";
+        ArrayList<String> tempList = new ArrayList<>();
+        expression = "1÷1=□";
+        tempList.add(expression);
+        expression = "2÷1=□";
+        tempList.add(expression);
+        expression = "2÷2=□";
+        tempList.add(expression);
+        expression = "3÷1=□";
+        tempList.add(expression);
+        expression = "3÷3=□";
+        tempList.add(expression);
+        expression = "4÷1=□";
+        tempList.add(expression);
+        expression = "4÷4=□";
+        tempList.add(expression);
+        expression = "5÷1=□";
+        tempList.add(expression);
+        expression = "5÷5=□";
+        tempList.add(expression);
+        expression = "6÷1=□";
+        tempList.add(expression);
+        expression = "6÷6=□";
+        tempList.add(expression);
+        expression = "7÷1=□";
+        tempList.add(expression);
+        expression = "7÷7=□";
+        tempList.add(expression);
+        expression = "8÷1=□";
+        tempList.add(expression);
+        expression = "8÷8=□";
+        tempList.add(expression);
+        expression = "9÷1=□";
+        tempList.add(expression);
+        expression = "9÷9=□";
+        tempList.add(expression);
+        expression = "4÷2=□";
+        tempList.add(expression);
+        expression = "6÷2=□";
+        tempList.add(expression);
+        expression = "6÷3=□";
+        tempList.add(expression);
+        expression = "8÷2=□";
+        tempList.add(expression);
+        expression = "8÷4=□";
+        tempList.add(expression);
+        expression = "10÷2=□";
+        tempList.add(expression);
+        expression = "10÷5=□";
+        tempList.add(expression);
+        expression = "12÷2=□";
+        tempList.add(expression);
+        expression = "12÷6=□";
+        tempList.add(expression);
+        expression = "14÷2=□";
+        tempList.add(expression);
+        expression = "14÷7=□";
+        tempList.add(expression);
+        expression = "16÷2=□";
+        tempList.add(expression);
+        expression = "16÷8=□";
+        tempList.add(expression);
+        expression = "18÷2=□";
+        tempList.add(expression);
+        expression = "18÷9=□";
+        tempList.add(expression);
+        expression = "9÷3=□";
+        tempList.add(expression);
+        expression = "12÷3=□";
+        tempList.add(expression);
+        expression = "12÷4=□";
+        tempList.add(expression);
+        expression = "15÷3=□";
+        tempList.add(expression);
+        expression = "15÷5=□";
+        tempList.add(expression);
+        expression = "18÷3=□";
+        tempList.add(expression);
+        expression = "18÷6=□";
+        tempList.add(expression);
+        expression = "21÷3=□";
+        tempList.add(expression);
+        expression = "21÷7=□";
+        tempList.add(expression);
+        expression = "24÷3=□";
+        tempList.add(expression);
+        expression = "24÷8=□";
+        tempList.add(expression);
+        expression = "27÷9=□";
+        tempList.add(expression);
+        expression = "27÷3=□";
+        tempList.add(expression);
+        expression = "16÷4=□";
+        tempList.add(expression);
+        expression = "20÷4=□";
+        tempList.add(expression);
+        expression = "20÷5=□";
+        tempList.add(expression);
+        expression = "24÷4=□";
+        tempList.add(expression);
+        expression = "24÷6=□";
+        tempList.add(expression);
+        expression = "28÷7=□";
+        tempList.add(expression);
+        expression = "28÷4=□";
+        tempList.add(expression);
+        expression = "32÷4=□";
+        tempList.add(expression);
+        expression = "36÷4=□";
+        tempList.add(expression);
+        expression = "25÷5=□";
+        tempList.add(expression);
+        expression = "30÷6=□";
+        tempList.add(expression);
+        expression = "30÷5=□";
+        tempList.add(expression);
+        expression = "35÷5=□";
+        tempList.add(expression);
+        expression = "35÷7=□";
+        tempList.add(expression);
+        expression = "40÷5=□";
+        tempList.add(expression);
+        expression = "40÷8=□";
+        tempList.add(expression);
+        expression = "45÷5=□";
+        tempList.add(expression);
+        expression = "45÷9=□";
+        tempList.add(expression);
+        expression = "36÷6=□";
+        tempList.add(expression);
+        expression = "42÷7=□";
+        tempList.add(expression);
+        expression = "42÷6=□";
+        tempList.add(expression);
+        expression = "48÷6=□";
+        tempList.add(expression);
+        expression = "48÷8=□";
+        tempList.add(expression);
+        expression = "54÷9=□";
+        tempList.add(expression);
+        expression = "54÷6=□";
+        tempList.add(expression);
+        expression = "49÷7=□";
+        tempList.add(expression);
+        expression = "56÷7=□";
+        tempList.add(expression);
+        expression = "56÷8=□";
+        tempList.add(expression);
+        expression = "63÷7=□";
+        tempList.add(expression);
+        expression = "63÷9=□";
+        tempList.add(expression);
+        expression = "64÷8=□";
+        tempList.add(expression);
+        expression = "72÷8=□";
+        tempList.add(expression);
+        expression = "72÷9=□";
+        tempList.add(expression);
+        expression = "81÷9=□";
+        tempList.add(expression);
+
+        return tempList;
+    }
+
+    /*
     //一位数除一位数
     private static ArrayList<String> createSingleDivideSingle() {
         ArrayList<String> tempList = new ArrayList<>();
@@ -722,6 +890,7 @@ public class MathPdfController {
 
         return tempList;
     }
+     */
 
     //生成两位数除一位数随机题
     @RequestMapping("/doubleDivideSingle")
